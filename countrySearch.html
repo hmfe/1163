@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Country Search</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+<form>
+    <input autocomplete="off" id="search" list="country-datalist" multiple name="search" onmousedown="value ='';"
+           placeholder="e.g sw"
+           type="text">
+</form>
+<datalist id="country-datalist"></datalist>
+<div id="dynamicTable">
+    <div id="searchContent">
+        <div id="searchHistory">Search history</div>
+        <div id="clearSearchHistory"><a class="clearAll" href="">Clear search history</a></div>
+    </div>
+</div>
+</body>
+</html>
