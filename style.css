@@ -1,0 +1,62 @@
+.common {
+    height: 20px;
+    border-bottom: 1px solid #918d8d;
+    padding: 10px;
+}
+
+.clearAll {
+    color: black;
+}
+
+.searchCountry {
+    margin-right: 10px;
+    width: 50%;
+    float: left;
+}
+
+.searchDateTime {
+    float: left;
+    color: #b2adad;
+}
+
+.clearSelected {
+    float: right;
+}
+
+body {
+    width: 600px;
+    margin: 40px auto;
+    background-color: #c5c5c5;
+}
+
+option {
+    width: 600px;
+}
+
+#dynamicTable {
+    width: 600px;
+    background-color: #f8f8f8;
+}
+
+#searchContent {
+    width: 580px;
+    font-size: 17px;
+    border-bottom: 1px solid #b4b3b3;
+    padding: 10px;
+}
+
+#searchHistory {
+    float: left;
+    margin-right: 35%;
+}
+
+#clearSearchHistory {
+    font-size: 15px;
+}
+
+#search {
+    width: 587px;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
